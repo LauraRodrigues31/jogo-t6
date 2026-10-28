@@ -49,12 +49,12 @@ button:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
 .detail div{flex:1;min-width:0}
 .detail b{font-family:var(--display);font-size:22px;display:block;line-height:1.05}
 .detail p{margin:2px 0 0;font-size:14px;line-height:1.3}
-#shoot{position:absolute;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));display:none;
-  font-size:28px;width:112px;height:112px;padding:0;border-radius:50%;background:var(--chalk);box-shadow:0 5px 0 #9fb3cf,0 0 0 6px rgba(124,200,255,.35)}
-#joy{position:absolute;left:calc(22px + env(safe-area-inset-left,0px));bottom:calc(22px + env(safe-area-inset-bottom,0px));width:132px;height:132px;border-radius:50%;display:none;touch-action:none;background:rgba(6,22,49,.45);box-shadow:inset 0 0 0 2px rgba(244,247,251,.55)}
-#knob{position:absolute;left:50%;top:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:var(--chalk);box-shadow:0 3px 0 #9fb3cf;pointer-events:none}
+#shoot{position:absolute;right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));display:none;
+  font-size:19px;width:74px;height:74px;padding:0;border-radius:50%;background:var(--chalk);box-shadow:0 3px 0 #9fb3cf,0 0 0 4px rgba(124,200,255,.35)}
+#joy{position:absolute;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:96px;height:96px;border-radius:50%;display:none;touch-action:none;background:rgba(6,22,49,.45);box-shadow:inset 0 0 0 2px rgba(244,247,251,.55)}
+#knob{position:absolute;left:50%;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;background:var(--chalk);box-shadow:0 3px 0 #9fb3cf;pointer-events:none}
 #shoot.off{opacity:.4}
-#mute{position:absolute;top:calc(8px + env(safe-area-inset-top,0px));right:calc(10px + env(safe-area-inset-right,0px));font-size:18px;padding:5px 11px;background:rgba(6,22,49,.7);color:var(--chalk);box-shadow:inset 0 0 0 1px #3d6299}
+#mute{position:absolute;top:calc(8px + env(safe-area-inset-top,0px));right:calc(10px + env(safe-area-inset-right,0px));font-size:15px;padding:3px 8px;background:rgba(6,22,49,.7);color:var(--chalk);box-shadow:inset 0 0 0 1px #3d6299}
 #rotate{position:absolute;inset:0;display:none;align-items:center;justify-content:center;text-align:center;background:var(--deep);z-index:9;padding:24px}
 #rotate .ph{font-size:54px;display:inline-block;animation:turn 1.8s ease-in-out infinite}
 @keyframes turn{0%,30%{transform:rotate(0)}60%,100%{transform:rotate(-90deg)}}
