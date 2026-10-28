@@ -26,7 +26,7 @@ function render(){
   if(S.ball)drawBall(S.ball.x,S.ball.y,true);if(S.kick)drawBall(S.kick.x,S.kick.y);
   ctx.restore();
   // Tainá na lateral
-  if(state!=='reveal'){const tl=COARSE?230:110,tx=S.arena?tl:Math.max(tl,Math.min(W*.5,S.p.x-cam-140));
+  if(state!=='reveal'){const tl=COARSE?170:110,tx=S.arena?tl:Math.max(tl,Math.min(W*.5,S.p.x-cam-140));
     drawPerson(TAINA,tx,BOT+42,.72,S.t*2,false,{coach:true});
     ctx.fillStyle='#f4f7fb';ctx.font='700 12px '+DISP;ctx.textAlign='center';ctx.textAlign='left';ctx.fillText('técnica Tainá',tx+16,BOT+52);
     if(S.talk.left>0&&S.talk.who==='Tainá')bubble(tx,BOT+8,S.talk.txt)}
